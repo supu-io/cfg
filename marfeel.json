@@ -1,0 +1,27 @@
+{
+  "$jason": {
+    "head": {
+      "title": "KT",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "background": {
+        "type": "html",
+        "url": "https://www.marfeel.com",
+        "action": {
+          "type": "$default"
+        }
+      }
+    },
+    "items": {
+      "{{#each $jason.find('a[target=\"_blank\"]')}}": {
+        "type": "a",
+        "text": "Ohohohoh"
+      }
+    }
+  }
+}

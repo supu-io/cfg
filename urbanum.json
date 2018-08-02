@@ -1,0 +1,21 @@
+{
+  "$jason": {
+    "head": {
+      "title": "KT",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "background": {
+        "type": "html",
+        "url": "https://www.urbanum.es",
+        "action": {
+          "type": "$default"
+        }
+      }
+    }
+  }
+}
